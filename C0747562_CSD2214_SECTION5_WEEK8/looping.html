@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div>Result come here:</div>
+    <script>
+        //Karanvir Singh Banwait  C0747562
+        //Gunraj Singh Badi C0742871
+
+        //Factory class
+        function NumbersAdding() {
+            // function for adding numbers fromm 1109 to back till 119 with 11 count down
+            return {
+                addNumbers: function () {
+                    //accumulator variable
+                    var sum = 0;
+                    for (i = 1109; i >= 119; i -= 11) {
+                        sum += i;
+                    }
+                    // returning sum from 1109 to 119 till 119 with 11 count down
+                    document.write("Sum of numbers from 1109 to 119 till 119 with 11 count down: " + sum);
+                }
+
+            };
+        }
+
+        //creating object from factory function
+        let sum = NumbersAdding();
+        sum.addNumbers();
+
+    </script>
+</body>
+</html>
