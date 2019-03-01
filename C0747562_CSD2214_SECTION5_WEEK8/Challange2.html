@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <div></div>
+    <script>
+        //Karanvir Singh Banwait  C0747562
+        //Gunraj Singh Badi C0742871
+
+        //Factory class
+        function NumbersAdding() {
+
+            // function for adding numbers fromm 1109 to back till 119 with 11 count down
+             
+                
+            this.addNumbers= function (start, end, countdown) {
+                //accumulator variable
+                var sum = 0;
+                for (var i = start; i >= end; i -= countdown) {
+                    sum = Number(sum) + Number(i);
+                }
+
+                return sum
+            }
+        }
+
+       
+        //taking value from user
+        var start = prompt("enter a starting number");
+        var end = prompt("enter a ending number");
+        var countdown = prompt("enter a counting down number");
+
+        //function triggered on when click on button
+        function displayResult() {
+             //creating object from factory function
+            var sum = new NumbersAdding();
+
+             //displaying on browser
+           
+
+            // returning sum from 1109 to 119 till 119 with 11 count down
+            document.write("Sum of numbers from " + start + " to " + end + " till  with " + countdown + " count down: " + sum.addNumbers(start, end, countdown));
+        }
+    </script>
+
+    <button onclick="displayResult();">click to calculate sum</button>
+</body>
+</html>
