@@ -70,6 +70,7 @@
     </AppxManifest>
     <Content Include="Challenge2.html" />
     <Content Include="Challenge3.html" />
+    <Content Include="Challenge4.html" />
     <Content Include="js\ExtremeChallenge2019.js" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
