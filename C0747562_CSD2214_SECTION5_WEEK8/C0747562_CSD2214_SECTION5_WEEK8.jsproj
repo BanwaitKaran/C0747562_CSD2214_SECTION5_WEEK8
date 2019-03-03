@@ -68,7 +68,9 @@
     <AppxManifest Include="package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <Content Include="Challange2.html" />
+    <Content Include="Challenge2.html" />
+    <Content Include="Challenge3.html" />
+    <Content Include="js\ExtremeChallenge2019.js" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
     <Content Include="images\SplashScreen.scale-200.png" />
@@ -79,7 +81,7 @@
     <Content Include="images\Wide310x150Logo.scale-200.png" />
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
-    <Content Include="looping.html" />
+    <Content Include="Challenge1.html" />
     <None Include="C0747562_CSD2214_SECTION5_WEEK8_TemporaryKey.pfx" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />

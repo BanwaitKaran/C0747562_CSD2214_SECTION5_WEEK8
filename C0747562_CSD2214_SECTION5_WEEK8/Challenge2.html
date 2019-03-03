@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Challenge 2</title>
+    <script src="js/ExtremeChallenge2019.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Challenge Extreme 2019</h1>
+        <h2>Karanvir Singh Banwait</h2>
+        <h2>Gunraj Singh</h2><br />
+
+        <h2>Challange 2: Output</h2>
+        <h2 id="result"></h2>
+        <button onclick="displayResult();">Click Here to Get Result</button>
+       
+        <script>
+            //Karanvir Singh Banwait  C0747562
+            //Gunraj Singh Badi C0742871
+
+            //creating object from construtor method
+            let sum = new NumbersAdding();
+
+            //taking value from user
+            var start = parseInt(prompt("enter a starting number"));
+            var countdown = parseInt(prompt("enter a counting down number"));
+            var end = parseInt(prompt("enter a ending number"));
+
+            //function triggered on when click on button
+            function displayResult() {
+                //creating object from factory function
+                var result = sum.addNumbers(start, countdown, end);
+
+                //displaying on browser
+                document.getElementById("result").innerText = "Sum of numbers from " + start + " to " +
+                                         end + " till  with " + countdown + " count down: " + result ;
+            }
+        </script>
+    </div>
+    
+</body>
+</html>
